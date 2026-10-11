@@ -27,3 +27,9 @@
 <p>With Rue, we wanted to make it look a lot more human like in a way, giving it a slightly similar silhouette to the average Sinner, while also keeping the long head that give it its general appeal.</p>
 <p>FUN FACT! Rue originally had transparent eyes, but I got rid of it because it would've looked really odd in-game. Plus, it gives it a more notable characteristic.</p>
 
+# Covet
+<img width="180" height="169" alt="Covet Idle" src="https://github.com/user-attachments/assets/a1a042d4-74ea-4bd9-aa3b-5cbdf33b0652" />
+<p>⚾</p>
+<p>There was no major thought process behind this one, we just thought it looked pretty cool. Minor fun fact though, this was actually designed by 3 people! 1831 did the base design, Julian/DivineComedy did the keyposes, and I animated em<img width="46" height="63" alt="Covet charge" src="https://github.com/user-attachments/assets/cf643ff0-a726-4526-9026-44f59c9757ee" />
+<img width="44.8" height="56.4" alt="Covet prep" src="https://github.com/user-attachments/assets/51566420-e68b-4259-b7d4-e04466c87cc1" />
+</p>
