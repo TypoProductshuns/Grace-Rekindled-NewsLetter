@@ -1,5 +1,5 @@
 # Grace-Rekindled-NewsLetter
-<img width="1550" height="1500" alt="God happy(extend)" src="https://github.com/user-attachments/assets/156772b5-1ba0-4371-bcca-8d6446200f91" />
+<img width="663" height="208" alt="God happy(extend)" src="https://github.com/user-attachments/assets/3407e0fa-1a2e-4c6a-9629-b7a928d64f90" />
 ## Welcome 🤍
 
 <p>Have a topic you're particularly interested in? Use one of these to skip straight to it!</p>
