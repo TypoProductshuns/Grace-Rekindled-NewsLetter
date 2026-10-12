@@ -60,10 +60,10 @@
 <p>Okay I know we already teased Goatman, but I just needed to put this fun fact out there, and also let you guys get a better look at the model. Back when we weren't taking game development TOO seriously, Silverbolt made it double cheeked up.
  <img width="153" height="460" alt="Gyattman" src="https://github.com/user-attachments/assets/2c11f462-d5aa-46a7-ba23-1baf7f394eb7" />
  So, I asked for the obj file and went into blender to tear it off myself, which led to the creation of this beautiful image.
- <img width="219" height="384" alt="image" src="https://github.com/user-attachments/assets/57677116-559e-4ccf-a01a-2131004385f8" />
 </p>
+<img width="521" height="386" alt="Screenshot 2026-10-12 144628" src="https://github.com/user-attachments/assets/22e76a09-da7a-45b6-8f1d-5c495007f370" />
 
-
+ 
 ## Gameplay?
 <p>I'm sure you get the idea by now. We have a rather hefty catalogue of entities, if we were to name all of them we would be here all day. The majorly important questions I'm sure are on your minds are "Is there gameplay?" "When is it coming out?" So to put it simply. Peep this.</p>
 --video of gameplay with all entities
