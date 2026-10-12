@@ -4,7 +4,7 @@
 ## Welcome 🤍
 
 <p>Have a topic you're particularly interested in? Use one of these to skip straight to it!</p>
-[Intro](#introduction).
+[Intro](##introduction).
 
 
 
@@ -33,3 +33,58 @@
 <p>There was no major thought process behind this one, we just thought it looked pretty cool. Minor fun fact though, this was actually designed by 3 people! 1831 did the base design, Julian/DivineComedy did the keyposes, and I animated em<img width="46" height="63" alt="Covet charge" src="https://github.com/user-attachments/assets/cf643ff0-a726-4526-9026-44f59c9757ee" />
 <img width="44.8" height="56.4" alt="Covet prep" src="https://github.com/user-attachments/assets/51566420-e68b-4259-b7d4-e04466c87cc1" />
 </p>
+
+# Seesay
+<img width="238" height="181" alt="Seesay GRK Idle" src="https://github.com/user-attachments/assets/7c56c820-e05d-4603-86f7-71ebe42960b0" />
+<p>I'm fairly sure Seesay was the second or third ever entity to be finished design-wise. It was made by Neptune, for anyone that knows Neptune, this probably isn't a surprise to anyone. We wanted to keep Seesay's whole cutesy appeal while also making it more gender neutral if that makes sense? So we cut the sharp edges of the eyes that made it a bit more feminine, and we made the mouth wider to avoid the claims of it being a nose that the original game got. We also completely changed the eye shape because we genuinely could not figure out the lore significance of Seesay of all entities having crosses in its eyes Fun fact: Back in Ascended Soul, we were quite directionless to be completely honest, so the original Seesay design actually leaned MORE into the feminine look with eyelashes. I don't think they were intentional but you could really easily tell. That old sSesay design is lost medias though unfortunately</p>
+
+# Kookoo
+<img width="175" height="175" alt="Kookoo GRK" src="https://github.com/user-attachments/assets/a7cb4287-b127-45e0-b45e-71faa41262b6" />
+<p>Kookoo (Designed by Dottoe1) was one of the first entities to get completely and utterly completed, everything outside the actual code had been done for this entity. There wasn't any major thought process to this redesign as far as I'm aware, but I believe it gets the job done. Fun Fact: Because of their connection to the internet, Kookoo's jumpscare screen was originally going to feature Duk. This was scraped though because outside of that connection, which was only really brought by Grace's retro collab anyways, they have no reason to be related like that.</p>
+
+# Drain
+
+<p>Drain was originally meant to be its own teaser, we had gotten the model out a good while ago(Model by Malk), but every time we needed it animated our 3d animators would mysteriously vanish, true story! I would get into the thought process of putting the censor scribble where the head should be and making it appear docile when not active, but Drain as a whole is a very nuanced topic to get into, so I'd rather not do it here.</p>
+
+# Snap
+<img width="128" height="128" alt="Snap screen" src="https://github.com/user-attachments/assets/be3ceba9-22b6-4e4a-9c24-9ba3f4390fec" />
+<p>Snap was another one of those more intricate entities to design (designed by Nyxx), which is in striking contrast to how genuinely challenging it is to actually script this lil doofus. But we're still confident that we can handle it before the day of release.<img width="48" height="48" alt="Snap goober" src="https://github.com/user-attachments/assets/38bae7b9-a83b-4e16-95ff-fce9643a4c18" />
+</p>
+
+# Joey
+--Joey video here
+<p>With Joey (model by Silverbolt) we decided to make it a little bit cartoony while also giving it some slightly anatomical proportions to make it easier to animate. There's a lot more to say about it mechanics wise if nothing else. We took a tiny bit of inspiration from an old pressure teaser for how Joey could behave and plan on integrating it into the game. Essentially Joey's meant to wander around a room like an npc, and if you walk into it or exit that room, it automatically goes into your inventory. Why would we do this? Because our rat is adorable, why else?</p>
+
+# Goatman
+
+<p>Okay I know we already teased Goatman, but I just needed to put this fun fact out there, and also let you guys get a better look at the model. Back when we weren't taking game development TOO seriously, Silverbolt made it double cheeked up.<img width="53" height="260" alt="Gyattman" src="https://github.com/user-attachments/assets/2c11f462-d5aa-46a7-ba23-1baf7f394eb7" />
+ So, I asked for the obj file and went into blender to tear it off myself, which led to the creation of this beautiful image <img width="119" height="284" alt="image" src="https://github.com/user-attachments/assets/57677116-559e-4ccf-a01a-2131004385f8" />
+</p>
+
+
+## Gameplay?
+<p>I'm sure you get the idea by now. We have a rather hefty catalogue of entities, if we were to name all of them we would be here all day. The majorly important questions I'm sure are on your minds are "Is there gameplay?" "When is it coming out?" So to put it simply. Peep this.</p>
+--video of gameplay with all entities
+<p>Now, it should be obvious by the gameplay shown, we still have a good amount of a way to go before this game is in a properly playable state. But we ARE making progress. I suppose that leads to the next most important question</p>
+
+## Release Date
+<p>**NOVEMBER 27th**
+What? did you expect me to beat around the bush about it? Nah our aim is to release the ALPHA build of the game on that date. Those of you that were around for the QnA held during Grace's anniversary might have heard it before, but we have always intended to release the game by November. If we don't release anything on or before that date, just assume we're going to release it some time mid December to finalize things. But now that begs another question</p>
+
+## Alpha??
+<p>The alpha build of the game is intended to be the most barebones essentials version of the game. It's basically meant to function as a demo, actually less of a demo more of a playtest. It's going to feature the Lobby, the main grace game mode, including every new entity we've been cooking up, a flashlight and lantern, and a few custom player animations. After which we will be getting into the meat and bone of the other core parts of the game.</p>
+
+## Unique features
+<p>I get the feeling a lot of people are into grace remakes for the sake of the domains, and everything else is treated as an after thought. This isn't just a community expectation thing either, I've noticed a lot of devs do that sort of thing as well, at least going off how they tease their stuff, not trying to name names. And don't get it wrong, we enjoy domains as much as anyone else, however, we feel it's important to have other completely unique game modes available. Now, like I already mentioned. We're more locked in on the base game right now, so we can't exactly directly tell you what we have to show for other game modes, but what I can say is what we plan on changing.
+Zen and Reprieve are receiving a general design revamp which comes with buffing certain entities.
+Big plans to make chaos mode a lot more chaotic.
+Mutter with a higher focus on the third person aspect (no we are not keeping the rhythm game aspect, however we aim to make it substantially funky)
+A completely separate rhythm minigame
+An entirely new game mode that functions as a much more fun version of rOT (we are not getting rid of rOT don't worry)
+Some very fun new items
+
+Please bare in mind everything said here is subject to change, but these are just some of the things we will majorly be working towards for the future</p>
+
+## Other teases
+<p>One of the most important things to grace was definitely the music, and I'm sure you've noticed a distinct lack of it on our side. Truth be told, just like our art teases, we just felt weird teasing music without anything else to it, but since we're doing it now, let us make it up.
+Truth be told, the song you've been listening to this entire time </p>
