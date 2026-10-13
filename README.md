@@ -72,7 +72,7 @@
 
 ## Release Date
 <p>**NOVEMBER 27th**
-What? did you expect me to beat around the bush about it? Nah our aim is to release the ALPHA build of the game on that date. Those of you that were around for the QnA held during Grace's anniversary might have heard it before, but we have always intended to release the game by November. If we don't release anything on or before that date, just assume we're going to release it some time mid December to finalize things. But now that begs another question</p>
+What? did you expect me to beat around the bush about it? Nah, our aim is to release the ALPHA build of the game on that date. Those of you that were around for the QnA held during Grace's anniversary might have heard it before, but we have always intended to release the game by November. If we don't release anything on or before that date, just assume we're going to release it some time mid December to finalize things. But now that begs another question</p>
 
 ## Alpha??
 <p>The alpha build of the game is intended to be the most barebones essentials version of the game. It's basically meant to function as a demo, actually less of a demo more of a playtest. It's going to feature the Lobby, the main grace game mode, including every new entity we've been cooking up, a flashlight and lantern, and a few custom player animations. After which we will be getting into the meat and bone of the other core parts of the game.</p>
