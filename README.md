@@ -47,7 +47,8 @@
 <p>Drain was originally meant to be its own teaser, we had gotten the model out a good while ago(Model by Malk), but every time we needed it animated our 3d animators would mysteriously vanish, true story! I would get into the thought process of putting the censor scribble where the head should be and making it appear docile when not active, but Drain as a whole is a very nuanced topic to get into, so I'd rather not do it here.</p>
 
 # Snap
-<img width="128" height="128" alt="Snap screen" src="https://github.com/user-attachments/assets/be3ceba9-22b6-4e4a-9c24-9ba3f4390fec" />
+<img width="128" height="128" alt="Snap idle" src="https://github.com/user-attachments/assets/be3ceba9-22b6-4e4a-9c24-9ba3f4390fec" />
+<img width="128" height="128" alt="Snap pet" src="https://github.com/user-attachments/assets/556fafc6-1abd-45f6-8932-1acb3e476320" />
 <p>Snap was another one of those more intricate entities to design (designed by Nyxx), which is in striking contrast to how genuinely challenging it is to actually script this lil doofus. But we're still confident that we can handle it before the day of release.<img width="48" height="48" alt="Snap goober" src="https://github.com/user-attachments/assets/38bae7b9-a83b-4e16-95ff-fce9643a4c18" />
 </p>
 
