@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Goofburst";
+  src: url("GOOFBURST.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +15,8 @@
 body {
   overflow: hidden;
   background: #000;
+  font-family: "Goofburst", system-ui, -apple-system, BlinkMacSystemFont,
+    sans-serif;
 }
 
 .scroller {
@@ -17,6 +27,20 @@ body {
   background-size: 128px 128px;
   opacity: 0.33;
   animation: scroll-uv 2s linear infinite;
+}
+
+header {
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  color: #fff;
+  font-size: clamp(1rem, 3vw, 2rem);
+  text-align: center;
+  text-shadow: 0 4px 40px rgba(0, 0, 0, 0.6);
+  letter-spacing: 0.02em;
+  white-space: nowrap;
 }
 
 @keyframes scroll-uv {
