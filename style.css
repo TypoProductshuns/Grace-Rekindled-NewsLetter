@@ -135,9 +135,14 @@ display: inline-block;
 margin: 0 0.35rem;
 vertical-align: middle;
 }
-.big_date {
-font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+.hl_yellow {
+color: var(--gold);
+font-size: 1.15em;
 font-weight: 700;
+}
+.big_date {
+font-family: "Goofburst", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+text-transform: uppercase;
 font-size: clamp(1.2rem, 4vw, 2rem);
 color: var(--gold);
 -webkit-text-stroke: var(--stroke) #000;
@@ -261,8 +266,6 @@ color: #dcdcdc;
 background: #fff;
 color: #000;
 }
-/* ---------- video placeholders ---------- */
-/* ---------- links ---------- */
 .snippet_link {
 display: inline-block;
 margin: 0.75rem 0;
@@ -325,7 +328,6 @@ color: #000;
 background: #ed4245;
 color: #fff;
 }
-/*TODO : add franks implementation*/
 @keyframes scroll_uv {
 0% {
  background-position: 0 0;
