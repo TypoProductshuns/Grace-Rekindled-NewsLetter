@@ -39,7 +39,8 @@
 <p>I'm fairly sure Seesay was the second or third ever entity to be finished design-wise. It was made by Neptune, for anyone that knows Neptune, this probably isn't a surprise to anyone. We wanted to keep Seesay's whole cutesy appeal while also making it more gender neutral if that makes sense? So we cut the sharp edges of the eyes that made it a bit more feminine, and we made the mouth wider to avoid the claims of it being a nose that the original game got. We also completely changed the eye shape because we genuinely could not figure out the lore significance of Seesay of all entities having crosses in its eyes Fun fact: Back in Ascended Soul, we were quite directionless to be completely honest, so the original Seesay design actually leaned MORE into the feminine look with eyelashes. I don't think they were intentional but you could really easily tell. That old sSesay design is lost medias though unfortunately</p>
 
 # Kookoo
-<img width="175" height="175" alt="Kookoo GRK" src="https://github.com/user-attachments/assets/a7cb4287-b127-45e0-b45e-71faa41262b6" />
+<img width="175" height="175" alt="Kookoo GRK" src="https://github.com/user-attachments/assets/804ebed6-0086-46d9-8b86-e439efa740ab" />
+
 <p>Kookoo (Designed by Dottoe1) was one of the first entities to get completely and utterly completed, everything outside the actual code had been done for this entity. There wasn't any major thought process to this redesign as far as I'm aware, but I believe it gets the job done. Fun Fact: Because of their connection to the internet, Kookoo's jumpscare screen was originally going to feature Duk. This was scraped though because outside of that connection, which was only really brought by Grace's retro collab anyways, they have no reason to be related like that.</p>
 
 # Drain
