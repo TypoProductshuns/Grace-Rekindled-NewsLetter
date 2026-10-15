@@ -10,8 +10,10 @@
 <p>Hey everyone! This is Frank, most of you probably know me as FranktheTrash on discord typing all this, and let me start off by saying thank you all so much for getting us to 1k members. Truth be told, we had planned to get this done regardless of our member count, as we've always had a lot to show you all, and we just feel the regular teaser structure wouldn't do you guys any justice.</p>
 <p>A majority of us on the team don't like the idea of showing off the visual aspects of our game and nothing else. Because truth be told art is pretty easy for us. So we wanted to wait for gameplay. But that gameplay was quite a challenge to handle and we don't want to leave you guys in the dark. So this was our next best option. Oh, and for anyone visiting from outside of the Grace Rekindled Discord server; firstly, hi, thanks for taking the time to check us out. And if you want to see other teasers that weren't featured here and future ones, do feel free to join our discord server. This newsletter is meant to be a lot more casual compared to how we normally tease stuff, so I really hope you all are comfortable with the format we got here.</p>
 
+
 ## General Redesigns
 <p>Every, or at least almost every asset in the game has been completely remade from the ground-up from OG Grace. That may SOUND like the bare minimum, but we DO mean EVERY asset. The rooms and Lobby were completely built from scratch by the Map building team (Mostly MissingInvestigator, he's the goat) but that's a major reason things take a while. We even rebuilt the code itself from scratch which was a lot harder to do than you think and STILL comes up with bugs </p>
+
 
 ## Entity Redesigns
 
@@ -41,7 +43,7 @@
 <p>Kookoo (Designed by Dottoe1) was one of the first entities to get completely and utterly completed, everything outside the actual code had been done for this entity. There wasn't any major thought process to this redesign as far as I'm aware, but I believe it gets the job done. Fun Fact: Because of their connection to the internet, Kookoo's jumpscare screen was originally going to feature Duk. This was scraped though because outside of that connection, which was only really brought by Grace's retro collab anyways, they have no reason to be related like that.</p>
 
 # Drain
-
+--Drain idle anim here
 <p>Drain was originally meant to be its own teaser, we had gotten the model out a good while ago(Model by Malk), but every time we needed it animated our 3d animators would mysteriously vanish, true story! I would get into the thought process of putting the censor scribble where the head should be and making it appear docile when not active, but Drain as a whole is a very nuanced topic to get into, so I'd rather not do it here.</p>
 
 # Snap
@@ -68,12 +70,15 @@
 --video of gameplay with all entities
 <p>Now, it should be obvious by the gameplay shown, we still have a good amount of a way to go before this game is in a properly playable state. But we ARE making progress. I suppose that leads to the next most important question</p>
 
+
 ## Release Date
 <p>**NOVEMBER 27th**
 What? did you expect me to beat around the bush about it? Nah, our aim is to release the ALPHA build of the game on that date. Those of you that were around for the QnA held during Grace's anniversary might have heard it before, but we have always intended to release the game by November. If we don't release anything on or before that date, just assume we're going to release it some time mid December to finalize things. But now that begs another question</p>
 
+
 ## Alpha??
 <p>The alpha build of the game is intended to be the most barebones essentials version of the game. It's basically meant to function as a demo, actually less of a demo more of a playtest. It's going to feature the Lobby, the main grace game mode, including every new entity we've been cooking up, a flashlight and lantern, and a few custom player animations. After which we will be getting into the meat and bone of the other core parts of the game.</p>
+
 
 ## Unique features
 <p>I get the feeling a lot of people are into grace remakes for the sake of the domains, and everything else is treated as an after thought. This isn't just a community expectation thing either, I've noticed a lot of devs do that sort of thing as well, at least going off how they tease their stuff, not trying to name names. And don't get it wrong, we enjoy domains as much as anyone else, however, we feel it's important to have other completely unique game modes available. Now, like I already mentioned. We're more locked in on the base game right now, so we can't exactly directly tell you what we have to show for other game modes, but what I can say is what we plan on changing.
@@ -86,6 +91,11 @@ Some very fun new items
 
 Please bare in mind everything said here is subject to change, but these are just some of the things we will majorly be working towards for the future</p>
 
+
 ## Other teases
 <p>One of the most important things to grace was definitely the music, and I'm sure you've noticed a distinct lack of it on our side. Truth be told, just like our art teases, we just felt weird teasing music without anything else to it, but since we're doing it now, let us make it up.
-Truth be told, the song you've been listening to this entire time </p>
+The song you've been listening to this entire time is our official rendition of "The rest was silence" simply called Rememberance. </p>
+<p>While we're nowhere near working on domains yet, we DO have a very small snippet of an idea we've had for Sorrow's domain</p>
+
+--Link to sorrow's domain and fake image here
+
