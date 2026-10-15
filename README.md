@@ -58,7 +58,7 @@
 <p>With Joey (model by Silverbolt) we decided to make it a little bit cartoony while also giving it some slightly anatomical proportions to make it easier to animate. There's a lot more to say about it mechanics wise if nothing else. We took a tiny bit of inspiration from an old pressure teaser for how Joey could behave and plan on integrating it into the game. Essentially Joey's meant to wander around a room like an npc, and if you walk into it or exit that room, it automatically goes into your inventory. Why would we do this? Because our rat is adorable, why else?</p>
 
 # Goatman
-
+--Animation of goatman's model flying
 <p>Okay I know we already teased Goatman, but I just needed to put this fun fact out there, and also let you guys get a better look at the model. Back when we weren't taking game development TOO seriously, Silverbolt made it double cheeked up.
  <img width="153" height="460" alt="Gyattman" src="https://github.com/user-attachments/assets/2c11f462-d5aa-46a7-ba23-1baf7f394eb7" />
  So, I asked for the obj file and went into blender to tear it off myself, which led to the creation of this beautiful image.
@@ -74,7 +74,7 @@
 
 ## Release Date
 <p>**NOVEMBER 27th**
-What? did you expect me to beat around the bush about it? Nah, our aim is to release the ALPHA build of the game on that date. Those of you that were around for the QnA held during Grace's anniversary might have heard it before, but we have always intended to release the game by November. If we don't release anything on or before that date, just assume we're going to release it some time mid December to finalize things. But now that begs another question</p>
+What? did you expect me to beat around the bush about it? Nah, our aim is to release the ALPHA build of the game on that date. Those of you that were around for the QnA held during Grace's anniversary might have heard it before, but we have always intended to release the game by November. If we don't release anything on or before that date, just assume we're going to release it some time mid December to finalize things. But now that begs another question.</p>
 
 
 ## Alpha??
@@ -85,18 +85,45 @@ What? did you expect me to beat around the bush about it? Nah, our aim is to rel
 <p>I get the feeling a lot of people are into grace remakes for the sake of the domains, and everything else is treated as an after thought. This isn't just a community expectation thing either, I've noticed a lot of devs do that sort of thing as well, at least going off how they tease their stuff, not trying to name names. And don't get it wrong, we enjoy domains as much as anyone else, however, we feel it's important to have other completely unique game modes available. Now, like I already mentioned. We're more locked in on the base game right now, so we can't exactly directly tell you what we have to show for other game modes, but what I can say is what we plan on changing.
 Zen and Reprieve are receiving a general design revamp which comes with buffing certain entities.
 Big plans to make chaos mode a lot more chaotic.
-Mutter with a higher focus on the third person aspect (no we are not keeping the rhythm game aspect, however we aim to make it substantially funky)
-A completely separate rhythm minigame
+Mutter with a higher focus on the third person aspect. (no, we are not keeping the rhythm game aspect, however we aim to make it substantially funky)
+A completely separate rhythm minigame.
 An entirely new game mode that functions as a much more fun version of rOT (we are not getting rid of rOT don't worry)
-Some very fun new items
+Some very fun new items.
 
-Please bare in mind everything said here is subject to change, but these are just some of the things we will majorly be working towards for the future</p>
+Please bare in mind everything said here is subject to change, but these are just some of the things we will majorly be working towards for the future.</p>
 
 
 ## Other teases
 <p>One of the most important things to grace was definitely the music, and I'm sure you've noticed a distinct lack of it on our side. Truth be told, just like our art teases, we just felt weird teasing music without anything else to it, but since we're doing it now, let us make it up.
 The song you've been listening to this entire time is our official rendition of "The rest was silence" simply called Rememberance. </p>
-<p>While we're nowhere near working on domains yet, we DO have a very small snippet of an idea we've had for Sorrow's domain</p>
+<p>While we're nowhere near working on domains yet, we DO have a very small snippet of an idea we've had for Sorrow's domain, Wing just couldn't help himself. So please, tell us what you think, but don't expect too much.</p>
 
---Link to sorrow's domain and fake image here
+--Link to Heart of stone and fake image here
 
+<p>Like I said, nothing too crazy, sorry if it was a little too short.</p>
+
+--"Where I need to go" here
+<p>This song was produced by Prod Rubber. We had quite a hard time figuring out the vibe that could perfectly replicate Ultrasonic faith, but we decided to have an original spin on it. We didn't want it to be TOO overstimulating, especially with everything that happens in the average game, but truth be told, we're still trying to find a good balance. That said, please let us know what you think of it, all input helps!</p>
+
+--"Where grace keeps me" here
+<p>This was also produced by Prod Rubber. I believe he did a good job capturing the calming vibe of the original theme for the lobby while also making it its own thing. It's a bit on the shorter side, but I believe it does the job.</p>
+
+--Lapse in Judgement snippet here
+--Retribution snippet here
+<p>While we don't plan on releasing the flipside along with the alpha, it IS planned to come with the beta, hence we have the song for both spoiled Zen; "Lapse in Judgement, and a much more original track for Reprieve; "Retribution" which I'm sure a lot of you who came from Wing's channel had heard a bit of. Had to cut em a lil shorter though, can't have you guys having too much fun.</p>
+
+## Minor Issues
+<p>I'm sure a decent amount of you noticed a bunch of flaws with the gameplay footage we showed, whether it was misaligned rooms, flying over certain walls, Stem... The game at this point of development still has its quirks and unfinished aspects, but the fact is a lot of devs have personal stuff that requires their immediate attention. Injuries, school exams, general demotivation, you name it, a core member of the team has probably been through it. What I'm trying to say is, please be patient with us, especially when it comes to posting teasers from here on out. We're planning to stick more strictly to developing the game than anything promotional, as that is where our core objective lies.</p>
+
+## How YOU can help
+<p>The best way you can support us at this moment is simply joining the discord server and spreading the word as much as you can, even share this newsletter with your friends as well!</p>
+
+# ****PLEASE DO NOT OFFER TO FUND THE GAME!!!!**** --centralize this in yellow
+
+<p>While we deeply appreciate the gesture, we have majorly agreed to not receive any kind of monetary compensation until AT LEAST the alpha is released. If you REALLY wish to support us individually, then feel free to commission any of us devs that are offering up commissions, but please do not try to give us anything for free.</p>
+<img width="412" height="165" alt="Neptune comms" src="https://github.com/user-attachments/assets/a5db9de6-b143-4bed-a46c-da798cd0341e" />
+
+## Conclusion
+<p>Thank you all so SO much for reading this in its entirety, and if you skipped here, that's fine too, not sure why you'd do that, but I hope you got what you came for. With everything said, have a great spooky month, and as always, do remember to spread the love</p>
+
+--Video of available entities hitting the spooky dance.
