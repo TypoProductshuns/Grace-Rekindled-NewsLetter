@@ -124,6 +124,8 @@ The song you've been listening to this entire time is our official rendition of 
 
 <p>While we deeply appreciate the gesture, we have majorly agreed to not receive any kind of monetary compensation until AT LEAST the alpha is released. If you REALLY wish to support us individually, then feel free to commission any of us devs that are offering up commissions, but please do not try to give us anything for free.</p>
 <img width="312" height="65" alt="Neptune comms" src="https://github.com/user-attachments/assets/a5db9de6-b143-4bed-a46c-da798cd0341e" />
+<img width="386" height="347" alt="image" src="https://github.com/user-attachments/assets/8cc296f4-1114-41da-bc24-a3ae4097a9bc" />
+
 
 ## Conclusion
 <p>Thank you all so SO much for reading this in its entirety, and if you skipped here, that's fine too, not sure why you'd do that, but I hope you got what you came for. With everything said, have a great spooky month, and as always, do remember to spread the love</p>
