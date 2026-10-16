@@ -488,6 +488,14 @@ border: 0;
 border-top: 2px solid var(--gold);
 margin: 1.5rem 0 0;
 }
+.img_link {
+color: var(--gold);
+text-decoration: underline;
+text-underline-offset: 3px;
+}
+.img_link:hover {
+color: #fff;
+}
 .snippet_link {
 display: inline-block;
 margin: 0.75rem 0;
