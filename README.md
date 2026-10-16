@@ -71,6 +71,8 @@
 ## Gameplay?
 <p>I'm sure you get the idea by now. We have a rather hefty catalogue of entities, if we were to name all of them we would be here all day. The majorly important questions I'm sure are on your minds are "Is there gameplay?" "When is it coming out?" So to put it simply. Peep this.</p>
 --video of gameplay with all entities
+<p>Huh, that was a cool entity there... Wonder who that was.</p>
+
 <p>Now, it should be obvious by the gameplay shown, we still have a good amount of a way to go before this game is in a properly playable state. But we ARE making progress. I suppose that leads to the next most important question</p>
 
 
