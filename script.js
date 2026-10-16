@@ -50,18 +50,20 @@ const bg = new Audio('musics/stuff/bg.mp3');
 bg.loop = true;
 bg.volume = 0.25;
 
-const music_hint = document.getElementById('music_hint');
-
 const try_bg = () => {
   const p = bg.play();
   if (p && p.catch) p.catch(() => {});
 };
 
-bg.addEventListener('playing', () => {
-  document.body.classList.add('music_on');
-});
-
 bg.play().catch(() => {});
+
+const mute_btn = document.getElementById('mute_btn');
+
+mute_btn.addEventListener('click', () => {
+  const muted = mute_btn.getAttribute('aria-pressed') === 'true';
+  bg.muted = !muted;
+  mute_btn.setAttribute('aria-pressed', String(!muted));
+});
 
 const audios = [];
 

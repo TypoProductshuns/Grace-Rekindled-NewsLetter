@@ -160,6 +160,7 @@ margin: 0.35rem 0;
 .link_btn,
 .burger,
 .calm_btn,
+.mute_btn,
 .player {
 position: relative;
 border: 2px solid transparent;
@@ -171,6 +172,7 @@ clip-path: var(--pixel_corners);
 .link_btn::after,
 .burger::after,
 .calm_btn::after,
+.mute_btn::after,
 .player::after {
 content: "";
 position: absolute;
@@ -282,23 +284,40 @@ text-shadow: none;
 transform: translateY(-1px);
 outline: none;
 }
-.music_hint {
+.mute_btn {
 position: fixed;
-bottom: 1rem;
-left: 50%;
-transform: translateX(-50%);
-z-index: 30;
-padding: 0.4rem 0.9rem;
-background: rgba(0, 0, 0, 0.85);
-border: 2px solid var(--gold);
+bottom: 1.25rem;
+right: 1.25rem;
+z-index: 40;
+width: 46px;
+height: 44px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0;
+cursor: pointer;
 color: var(--gold);
-font-family: "Goofburst", system-ui, sans-serif;
-font-size: 0.8rem;
-white-space: nowrap;
-pointer-events: none;
 }
-body.music_on .music_hint {
+.icon_muted {
 display: none;
+}
+.mute_btn[aria-pressed="true"] .icon_sound {
+display: none;
+}
+.mute_btn[aria-pressed="true"] .icon_muted {
+display: block;
+}
+.mute_btn[aria-pressed="true"] {
+--edge: var(--gold);
+background: var(--gold);
+color: #000;
+}
+.mute_btn:hover {
+--edge: var(--gold);
+background: var(--gold);
+}
+.mute_btn:hover .mute_icon {
+color: #000;
 }
 .calm_btn {
 position: absolute;
