@@ -22,3 +22,86 @@ btn.addEventListener('click', () => {
  if (window.innerWidth < 900) set_panel(false);
 });
 });
+
+const fmt_time = (s) => {
+  if (!isFinite(s)) return '0:00';
+  const m = Math.floor(s / 60);
+  const sec = Math.floor(s % 60).toString().padStart(2, '0');
+  return `${m}:${sec}`;
+};
+
+const bg = new Audio('musics/stuff/bg.mp3');
+bg.loop = true;
+bg.volume = 0.25;
+
+const audios = [];
+
+const resume_bg = () => {
+  const busy = audios.some((a) => !a.paused && !a.ended);
+  if (!busy) bg.play().catch(() => {});
+};
+
+let bg_unlocked = false;
+const unlock_bg = () => {
+  if (bg_unlocked) return;
+  bg_unlocked = true;
+  bg.play().catch(() => {});
+};
+document.addEventListener('pointerdown', unlock_bg, { once: true });
+document.addEventListener('keydown', unlock_bg, { once: true });
+
+document.querySelectorAll('.player').forEach((player) => {
+  const audio = new Audio(player.dataset.src);
+  audios.push(audio);
+  const play_btn = player.querySelector('.player_play');
+  const seek = player.querySelector('.player_seek');
+  const time = player.querySelector('.player_time');
+
+  const set_progress = () => {
+    const pct = audio.duration ? (audio.currentTime / audio.duration) * 100 : 0;
+    seek.value = String(Math.round((pct / 100) * 1000));
+    seek.style.setProperty('--p', `${pct}%`);
+  };
+
+  play_btn.addEventListener('click', () => {
+    if (audio.paused) {
+      audio.play().catch(() => {});
+    } else {
+      audio.pause();
+    }
+  });
+
+  audio.addEventListener('play', () => {
+    player.classList.add('is_playing');
+    audios.forEach((other) => {
+      if (other !== audio) other.pause();
+    });
+    bg.pause();
+  });
+  audio.addEventListener('pause', () => {
+    player.classList.remove('is_playing');
+    resume_bg();
+  });
+  audio.addEventListener('ended', () => {
+    player.classList.remove('is_playing');
+    audio.currentTime = 0;
+    set_progress();
+    resume_bg();
+  });
+
+  audio.addEventListener('loadedmetadata', () => {
+    time.textContent = `0:00 / ${fmt_time(audio.duration)}`;
+  });
+
+  audio.addEventListener('timeupdate', () => {
+    time.textContent = `${fmt_time(audio.currentTime)} / ${fmt_time(audio.duration)}`;
+    set_progress();
+  });
+
+  seek.addEventListener('input', () => {
+    if (audio.duration) {
+      audio.currentTime = (Number(seek.value) / 1000) * audio.duration;
+      set_progress();
+    }
+  });
+});
