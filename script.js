@@ -82,6 +82,7 @@ document.addEventListener('pointerdown', unlock_bg, { once: true });
 document.addEventListener('keydown', unlock_bg, { once: true });
 
 document.querySelectorAll('.player').forEach((player) => {
+  if (!player.dataset.src) return;
   const audio = new Audio(player.dataset.src);
   audios.push(audio);
   const play_btn = player.querySelector('.player_play');
