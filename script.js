@@ -50,6 +50,19 @@ const bg = new Audio('musics/stuff/bg.mp3');
 bg.loop = true;
 bg.volume = 0.25;
 
+const music_hint = document.getElementById('music_hint');
+
+const try_bg = () => {
+  const p = bg.play();
+  if (p && p.catch) p.catch(() => {});
+};
+
+bg.addEventListener('playing', () => {
+  document.body.classList.add('music_on');
+});
+
+bg.play().catch(() => {});
+
 const audios = [];
 
 const resume_bg = () => {
@@ -61,7 +74,7 @@ let bg_unlocked = false;
 const unlock_bg = () => {
   if (bg_unlocked) return;
   bg_unlocked = true;
-  bg.play().catch(() => {});
+  try_bg();
 };
 document.addEventListener('pointerdown', unlock_bg, { once: true });
 document.addEventListener('keydown', unlock_bg, { once: true });
