@@ -1,3 +1,12 @@
+const header = document.querySelector('header');
+
+const set_header_h = () => {
+  document.documentElement.style.setProperty('--header_h', `${header.offsetHeight}px`);
+};
+
+set_header_h();
+window.addEventListener('resize', set_header_h);
+
 const burger = document.getElementById('burger');
 const toc_panel = document.getElementById('toc_panel');
 
@@ -21,6 +30,13 @@ btn.addEventListener('click', () => {
  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
  if (window.innerWidth < 900) set_panel(false);
 });
+});
+
+const calm_btn = document.getElementById('calm_btn');
+
+calm_btn.addEventListener('click', () => {
+  const on = document.body.classList.toggle('calm');
+  calm_btn.setAttribute('aria-pressed', String(on));
 });
 
 const fmt_time = (s) => {

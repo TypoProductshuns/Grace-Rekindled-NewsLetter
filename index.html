@@ -8,12 +8,24 @@
 </head>
 <body>
 <div class="scroller"></div>
-<header>G;rk_newsletter</header>
+<header>G;rk_newsletter
 <button class="burger" id="burger" aria-label="menu" aria-expanded="false" aria-controls="toc_panel">
 <span class="bar"></span>
 <span class="bar"></span>
 <span class="bar"></span>
 </button>
+  <button class="calm_btn" id="calm_btn" aria-label="motion sickness mode" title="motion sickness mode" aria-pressed="false">
+  <svg class="calm_icon icon_wave" viewBox="0 0 16 16" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="square" aria-hidden="true">
+  <path d="M1 4.5c2-2.5 4-2.5 6 0s4 2.5 6 0" />
+  <path d="M1 8c2-2.5 4-2.5 6 0s4 2.5 6 0" />
+  <path d="M1 11.5c2-2.5 4-2.5 6 0s4 2.5 6 0" />
+</svg>
+  <svg class="calm_icon icon_eye" viewBox="0 0 16 16" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="miter" aria-hidden="true">
+  <path d="M1 8V6H3V5H5V4H11V5H13V6H15V8V10H13V11H11V12H5V11H3V10H1Z" />
+  <path d="M6 6H10V10H6Z" fill="currentColor" stroke="none" />
+</svg>
+  </button>
+</header>
 <div class="toc_panel hidden" id="toc_panel">
   <nav class="toc">
   <button class="toc_btn" data-target="introduction">introduction</button>
@@ -44,7 +56,7 @@
   src="musics/stuff/God%20happy%28extend%29.gif" />
   <section id="welcome">
   <h2>welcome 🤍</h2>
-  <p>Background getting you sick? Toggle motion sickness mode in</p>
+  <p>Background getting you sick? Toggle motion sickness mode in the menu!</p>
   <p>Tired of the music? Hit the note button below to mute it!</p>
   <p>Have a topic you're particularly interested in? Use one of these to skip straight to it using the hamburger menu!! However, I recommend reading in its entirety.</p>
   </section>
@@ -158,11 +170,11 @@
 
   <div class="player" data-src="musics/stuff/Remembrance.mp3">
   <div class="player_head">
-  <span class="player_title">remembrance</span>
+  <span class="player_title">Heart Of Stones</span>
   </div>
   <div class="player_row">
-  <button class="player_play" aria-label="play remembrance"></button>
-  <input type="range" class="player_seek" min="0" max="1000" step="1" value="0" aria-label="seek remembrance">
+  <button class="player_play" aria-label="play Heart Of Stones"></button>
+  <input type="range" class="player_seek" min="0" max="1000" step="1" value="0" aria-label="seek Heart Of Stones">
   <span class="player_time">0:00</span>
   </div>
   </div>

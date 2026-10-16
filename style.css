@@ -14,6 +14,7 @@ box-sizing: border-box;
 --gold: #ffd700;
 --black: #000;
 --stroke: 3px;
+  --header_h: 4.75rem;
   --pc_outer: 0px calc(100% - 10px), 2px calc(100% - 10px), 2px calc(100% - 6px), 4px calc(100% - 6px), 4px calc(100% - 4px), 6px calc(100% - 4px), 6px calc(100% - 2px), 10px calc(100% - 2px), 10px 100%, calc(100% - 10px) 100%, calc(100% - 10px) calc(100% - 2px), calc(100% - 6px) calc(100% - 2px), calc(100% - 6px) calc(100% - 4px), calc(100% - 4px) calc(100% - 4px), calc(100% - 4px) calc(100% - 6px), calc(100% - 2px) calc(100% - 6px), calc(100% - 2px) calc(100% - 10px), 100% calc(100% - 10px), 100% 10px, calc(100% - 2px) 10px, calc(100% - 2px) 6px, calc(100% - 4px) 6px, calc(100% - 4px) 4px, calc(100% - 6px) 4px, calc(100% - 6px) 2px, calc(100% - 10px) 2px, calc(100% - 10px) 0px, 10px 0px, 10px 2px, 6px 2px, 6px 4px, 4px 4px, 4px 6px, 2px 6px, 2px 10px, 0px 10px;
   --pc_inner: 2px 10px, 4px 10px, 4px 6px, 6px 6px, 6px 4px, 10px 4px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 4px, calc(100% - 6px) 4px, calc(100% - 6px) 6px, calc(100% - 4px) 6px, calc(100% - 4px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 4px) calc(100% - 10px), calc(100% - 4px) calc(100% - 6px), calc(100% - 6px) calc(100% - 6px), calc(100% - 6px) calc(100% - 4px), calc(100% - 10px) calc(100% - 4px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 4px), 6px calc(100% - 4px), 6px calc(100% - 6px), 4px calc(100% - 6px), 4px calc(100% - 10px), 2px calc(100% - 10px);
   --pc_border: 0px calc(100% - 10px), 2px calc(100% - 10px), 2px calc(100% - 6px), 4px calc(100% - 6px), 4px calc(100% - 4px), 6px calc(100% - 4px), 6px calc(100% - 2px), 10px calc(100% - 2px), 10px 100%, calc(100% - 10px) 100%, calc(100% - 10px) calc(100% - 2px), calc(100% - 6px) calc(100% - 2px), calc(100% - 6px) calc(100% - 4px), calc(100% - 4px) calc(100% - 4px), calc(100% - 4px) calc(100% - 6px), calc(100% - 2px) calc(100% - 6px), calc(100% - 2px) calc(100% - 10px), 100% calc(100% - 10px), 100% 10px, calc(100% - 2px) 10px, calc(100% - 2px) 6px, calc(100% - 4px) 6px, calc(100% - 4px) 4px, calc(100% - 6px) 4px, calc(100% - 6px) 2px, calc(100% - 10px) 2px, calc(100% - 10px) 0px, 10px 0px, 10px 2px, 6px 2px, 6px 4px, 4px 4px, 4px 6px, 2px 6px, 2px 10px, 0px 10px, 0px 50%, 2px 50%, 2px 10px, 4px 10px, 4px 6px, 6px 6px, 6px 4px, 10px 4px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 4px, calc(100% - 6px) 4px, calc(100% - 6px) 6px, calc(100% - 4px) 6px, calc(100% - 4px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 4px) calc(100% - 10px), calc(100% - 4px) calc(100% - 6px), calc(100% - 6px) calc(100% - 6px), calc(100% - 6px) calc(100% - 4px), calc(100% - 10px) calc(100% - 4px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 4px), 6px calc(100% - 4px), 6px calc(100% - 6px), 4px calc(100% - 6px), 4px calc(100% - 10px), 2px calc(100% - 10px), 2px 50%, 0px 50%;
@@ -48,7 +49,7 @@ top: 0;
 left: 0;
 right: 0;
 z-index: 20;
-padding: 0.75rem 1rem;
+padding: 0.75rem 3.5rem;
 text-align: center;
 color: var(--gold);
 font-size: clamp(1rem, 3vw, 2rem);
@@ -103,7 +104,7 @@ margin: 1.75rem 0 0.5rem;
 }
 section,
 article {
-scroll-margin-top: 5rem;
+scroll-margin-top: calc(var(--header_h) + 1rem);
 }
 p,
 li {
@@ -158,6 +159,7 @@ margin: 0.35rem 0;
 .toc_btn,
 .link_btn,
 .burger,
+.calm_btn,
 .player {
 position: relative;
 border: 2px solid transparent;
@@ -168,6 +170,7 @@ clip-path: var(--pixel_corners);
 .toc_btn::after,
 .link_btn::after,
 .burger::after,
+.calm_btn::after,
 .player::after {
 content: "";
 position: absolute;
@@ -182,24 +185,32 @@ clip-path: polygon(var(--pc_border));
 pointer-events: none;
 }
 .burger {
-position: fixed;
-top: 0.5rem;
+position: absolute;
+top: 50%;
 left: 0.5rem;
+transform: translateY(-50%);
 z-index: 40;
 width: 46px;
 height: 44px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 5px;
 cursor: pointer;
 }
 .bar {
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
 display: block;
 width: 22px;
 height: 3px;
 background: var(--gold);
+}
+.bar:nth-child(1) {
+top: 12px;
+}
+.bar:nth-child(2) {
+top: 20px;
+}
+.bar:nth-child(3) {
+top: 28px;
 }
 .burger:hover {
 --edge: var(--gold);
@@ -208,9 +219,16 @@ background: var(--gold);
 .burger:hover .bar {
 background: #000;
 }
+.calm_btn:hover {
+--edge: var(--gold);
+background: var(--gold);
+}
+.calm_btn:hover .calm_icon {
+color: #000;
+}
 .toc_panel {
 position: fixed;
-top: 4rem;
+top: var(--header_h);
 left: 0;
 z-index: 35;
 width: 210px;
@@ -256,6 +274,41 @@ color: #000;
 text-shadow: none;
 transform: translateY(-1px);
 outline: none;
+}
+.calm_btn {
+position: absolute;
+top: 50%;
+right: 0.5rem;
+transform: translateY(-50%);
+z-index: 40;
+width: 46px;
+height: 44px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0;
+cursor: pointer;
+color: var(--gold);
+}
+.calm_icon {
+flex: 0 0 auto;
+}
+.icon_eye {
+display: none;
+}
+.calm_btn[aria-pressed="true"] .icon_wave {
+display: none;
+}
+.calm_btn[aria-pressed="true"] .icon_eye {
+display: block;
+}
+.calm_btn[aria-pressed="true"] {
+--edge: var(--gold);
+background: var(--gold);
+color: #000;
+}
+body.calm .scroller {
+animation-play-state: paused;
 }
 .toc_sub {
 --edge: #6f6f6f;
