@@ -22,6 +22,13 @@ box-sizing: border-box;
 }
 html {
 scroll-behavior: smooth;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+html::-webkit-scrollbar {
+display: none;
+width: 0;
+height: 0;
 }
 body {
 background: var(--black);
@@ -521,6 +528,23 @@ text-underline-offset: 3px;
 .img_link:hover {
 color: #fff;
 }
+.credits {
+margin-top: 2.5rem;
+padding-top: 1.5rem;
+border-top: 2px solid #333;
+text-align: center;
+}
+.credits p {
+margin: 0.35rem 0;
+font-size: 0.8rem;
+opacity: 0.75;
+}
+.credits a {
+color: var(--gold);
+}
+.credits a:hover {
+color: #fff;
+}
 .links {
 display: flex;
 gap: 0.75rem;
@@ -564,6 +588,55 @@ color: #000;
 --edge: #ed4245;
 background: #ed4245;
 color: #fff;
+}
+.scroll_rail {
+position: fixed;
+top: var(--header_h);
+right: 0;
+bottom: 0;
+z-index: 60;
+width: 14px;
+background: rgba(0, 0, 0, 0.75);
+border-left: 2px solid var(--gold);
+transition: opacity 0.2s;
+}
+body.no_scroll_rail .scroll_rail {
+opacity: 0;
+visibility: hidden;
+pointer-events: none;
+}
+.scroll_thumb {
+position: absolute;
+top: 0;
+left: 2px;
+width: 8px;
+background: var(--gold);
+clip-path: polygon(0 4px, 4px 0, calc(100% - 4px) 0, 100% 4px,
+100% calc(100% - 4px), calc(100% - 4px) 100%, 4px 100%, 0 calc(100% - 4px));
+cursor: pointer;
+touch-action: none;
+will-change: transform;
+}
+.scroll_thumb:hover,
+.scroll_thumb:focus-visible {
+background: #fff;
+}
+.scroll_thumb.is_dragging {
+background: #fff;
+filter: drop-shadow(0 0 6px rgba(255, 215, 0, 0.6));
+}
+.scroll_thumb:focus-visible {
+outline: 2px solid #fff;
+outline-offset: -6px;
+}
+@media (max-width: 700px) {
+.scroll_rail {
+width: 11px;
+}
+.scroll_thumb {
+left: 2px;
+width: 5px;
+}
 }
 @keyframes scroll_uv {
 0% {

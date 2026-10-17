@@ -137,3 +137,118 @@ document.querySelectorAll('.player').forEach((player) => {
     }
   });
 });
+
+const rail = document.getElementById('scroll_rail');
+const thumb = document.getElementById('scroll_thumb');
+const MIN_THUMB = 34;
+
+let rail_m = { h: 0, travel: 0, max_scroll: 0, view_h: 0 };
+
+const sync_thumb = () => {
+  const { h, travel, max_scroll } = rail_m;
+  if (!h || max_scroll <= 0) return;
+  const y = window.scrollY || document.documentElement.scrollTop || 0;
+  const p = Math.min(1, Math.max(0, y / max_scroll));
+  thumb.style.transform = `translateY(${Math.round(p * travel)}px)`;
+  thumb.setAttribute('aria-valuenow', String(Math.round(p * 100)));
+  thumb.setAttribute('aria-valuetext', `${Math.round(p * 100)}% scrolled`);
+};
+
+const measure_rail = () => {
+  const de = document.documentElement;
+  const view_h = de.clientHeight;
+  const doc_h = Math.max(de.scrollHeight, document.body.scrollHeight);
+  const h = rail.clientHeight;
+  const max_scroll = Math.max(doc_h - view_h, 0);
+  const usable = h > 0 && max_scroll > 1;
+
+  document.body.classList.toggle('no_scroll_rail', !usable);
+  if (!usable) {
+    rail_m = { h: 0, travel: 0, max_scroll: 0, view_h };
+    return;
+  }
+
+  const thumb_h = Math.min(h, Math.max(MIN_THUMB, Math.round((h * view_h) / doc_h)));
+  rail_m = { h, travel: h - thumb_h, max_scroll, view_h };
+  thumb.style.height = `${thumb_h}px`;
+  sync_thumb();
+};
+
+let rail_queued = false;
+window.addEventListener('scroll', () => {
+  if (rail_queued) return;
+  rail_queued = true;
+  requestAnimationFrame(() => {
+    rail_queued = false;
+    sync_thumb();
+  });
+}, { passive: true });
+
+window.addEventListener('resize', measure_rail);
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(measure_rail);
+if ('ResizeObserver' in window) {
+  new ResizeObserver(measure_rail).observe(document.body);
+}
+
+let dragging = false;
+let grab_offset = 0;
+
+const thumb_drag = (e) => {
+  const rail_top = rail.getBoundingClientRect().top;
+  const y = Math.min(Math.max(e.clientY - rail_top - grab_offset, 0), rail_m.travel);
+  const ratio = rail_m.travel > 0 ? y / rail_m.travel : 0;
+  window.scrollTo({ top: ratio * rail_m.max_scroll, behavior: 'instant' });
+};
+
+thumb.addEventListener('pointerdown', (e) => {
+  dragging = true;
+  grab_offset = e.clientY - thumb.getBoundingClientRect().top;
+  thumb.classList.add('is_dragging');
+  try {
+    thumb.setPointerCapture(e.pointerId);
+  } catch (_) {
+  }
+  e.preventDefault();
+});
+
+thumb.addEventListener('pointermove', (e) => {
+  if (dragging) thumb_drag(e);
+});
+
+const end_drag = (e) => {
+  if (!dragging) return;
+  dragging = false;
+  thumb.classList.remove('is_dragging');
+  if (thumb.hasPointerCapture(e.pointerId)) thumb.releasePointerCapture(e.pointerId);
+};
+
+thumb.addEventListener('pointerup', end_drag);
+thumb.addEventListener('pointercancel', end_drag);
+
+rail.addEventListener('pointerdown', (e) => {
+  if (e.target === thumb || !rail_m.max_scroll) return;
+  const box = thumb.getBoundingClientRect();
+  const dir = e.clientY < box.top ? -1 : 1;
+  window.scrollBy({ top: dir * rail_m.view_h * 0.9, behavior: 'smooth' });
+});
+
+thumb.addEventListener('keydown', (e) => {
+  if (!rail_m.max_scroll) return;
+  const step = 60;
+  const page = rail_m.view_h * 0.9;
+  let y = window.scrollY;
+  if (e.key === 'ArrowDown') y += step;
+  else if (e.key === 'ArrowUp') y -= step;
+  else if (e.key === 'PageDown') y += page;
+  else if (e.key === 'PageUp') y -= page;
+  else if (e.key === 'Home') y = 0;
+  else if (e.key === 'End') y = rail_m.max_scroll;
+  else return;
+  e.preventDefault();
+  window.scrollTo({
+    top: Math.min(Math.max(y, 0), rail_m.max_scroll),
+    behavior: 'smooth',
+  });
+});
+
+measure_rail();
